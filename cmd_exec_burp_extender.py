@@ -47,7 +47,7 @@ class BurpExtender(IBurpExtender, ITab):
     
     def load_json(self):
         try:
-            with open("cmd_apps.json", "r") as f:
+            with open("./cmd_apps.json", "r") as f:
                 self.app_data = json.load(f)
         except Exception as e:
             self.app_data = {}
