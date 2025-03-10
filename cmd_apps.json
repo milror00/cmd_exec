@@ -1,0 +1,10 @@
+{
+    "ffmpeg": {
+        "description": "A multimedia framework for video/audio processing.",
+        "parameters": ["-i input.mp4", "-codec copy", "-preset fast"]
+    },
+    "curl": {
+        "description": "A tool for transferring data from URLs.",
+        "parameters": ["-X GET", "-d 'data=value'", "-H 'Content-Type: application/json'"]
+    }
+}
